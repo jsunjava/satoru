@@ -1,3 +1,4 @@
+Start
 use starknet::{ContractAddress, contract_address_const};
 use debug::PrintTrait;
 
@@ -1159,4 +1160,5 @@ fn deploy_market_token(
         .deploy_at(@array![role_store.into(), data_store.into()], deployed_contract_address)
         .unwrap()
 }
+Finish
 
